@@ -1,0 +1,21 @@
+To Subscribe:
+
+Syntax : 
+mosquitto_sub -t "what ever topic name that you want to put" -h "ur ip adress"
+
+Example:
+mosquitto_sub -t new topic -h 192.168.187.230
+
+
+To Publish :
+
+Syntax:
+mosquitto_pub -t "name of the topic u kept in sub one" -h "ip adress" -m "whatever msg u want to send"
+
+Example:
+mosquitto_pub -t new_topic -h 192.168.187.230 -m hello
+
+NOTE :
+
+mosquitto -v -c test.conf
+Run this command in the directory where mosquitto is saved to verify and monitor whether the server is recieving and publishing the msgs or not
