@@ -4,3 +4,5 @@ First, run the mqtt_subscriber.py in a command line, and then run the mqtt_publi
 
 The status of all the publish and subscribe requests can be monitored by running the server status using the following command.
 mosquitto -v -c test.conf
+
+The output screenshots can be referred from the screenshots directory
